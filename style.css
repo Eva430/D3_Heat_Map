@@ -1,0 +1,61 @@
+* {
+    background: black;
+  }
+  
+  .project {
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  #title, #description {
+    text-align: center;
+    font-family: Gill Sans, sans-serif;
+  }
+  
+  #tooltip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    pointer-events: none;
+    background-color: rgba(0,0,0,0.8)
+  }
+  
+  .cell:hover {
+    fill: black;
+  }
+  
+  .axisWhite line {
+    stroke: white;
+  }
+  
+  .axisWhite path{
+    stroke: white;
+  }
+  
+  .axisWhite text{
+    font-size: .75rem;
+  }
+  
+  #sideText, #bottomText {
+    font-size: 1.25rem;
+  }
+  
+  .legendLabel {
+    font-size: 1rem;
+  }
+  
+  @media only screen and (max-width: 500px) {
+    h1 {
+      font-size: 1rem;
+    } 
+    h3 {
+      font-size: .5rem; 
+    }
+  }
