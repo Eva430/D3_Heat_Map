@@ -50,7 +50,7 @@ fetch('https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/maste
          .attr("class", "axisWhite")
   
       svg.append("text")
-         .attr("transform", "translate(700, 490)")
+         .attr("transform", "translate(770, 500)")
          .text("Year")
          .attr("id", "bottomText")
   
@@ -72,7 +72,7 @@ fetch('https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/maste
   
       svg.append("text")
          .attr("transform", "rotate(-90)")
-         .attr("x", -300)
+         .attr("x", -270)
          .attr("y", 120)
          .text("Month")
          .attr("id", "sideText")
