@@ -1,5 +1,5 @@
 //Receive data to be used.
-fetch('https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/global-temperature.json')
+fetch("https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/global-temperature.json")
   .then(response => response.json())
   .then(data => {
   
